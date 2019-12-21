@@ -16,7 +16,12 @@ text-decoration-line: none;
 color: white;
 }
 
-
+.wrapper1 {
+    display: grid;
+    grid-gap: 20px;
+    margin: 20px;
+    background-color: chartreuse;
+}
 
 .wrapper {
     display: grid;
@@ -37,34 +42,35 @@ color: white;
 }
 
 .a {
-    grid-column: 1 / span 3
+    grid-column: 1 / span 3;
+    grid-row: 2
 ;
 }
 .b {
     background-image: url(guitars.jpg);
     grid-area: auto;
     grid-column: 3 ;
-    grid-row: 2 / span 2;
+    grid-row: 3 / span 2;
 }
 .c {
     grid-column: 1 /span 2  ;
-    grid-row: 2 ;
+    grid-row: 3 ;
 }
 .d {
     grid-column: 1 / span 3 ;
-    grid-row: 3 ;
+    grid-row: 4 ;
 }
 .d2 {
     background-image: url(gear2.jpg);
     grid-area: span;
     grid-column: 1 / span 1 ;
-    grid-row: 4 ;
+    grid-row: 6 ;
 }
 .e {
     grid-column: 2 / span 2 ;
-    grid-row: 4 ;
+    grid-row: 6 ;
 }
 .f {
     grid-column: 1 / span 3 ;
-    grid-row: 5 ;
+    grid-row: 7 ;
 }
